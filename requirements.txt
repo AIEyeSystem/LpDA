@@ -1,0 +1,4 @@
+imageio=2.19.3
+imageio-ffmpeg=0.4.7
+pytorch=1.11.0
+cudatoolkit==11.0
