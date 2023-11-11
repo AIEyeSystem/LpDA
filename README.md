@@ -10,8 +10,18 @@ This paper presents a label-preserving data augmentation method for DR detection
 python=3.8
 pip install -r requirements.txt
 ```
+## Pre-trained models
+You can download the pre-trained [stylegan model](https://drive.google.com/file/d/14-Sv793VyBrSD-xXefCMJ_WYgpXIkv35/view?usp=sharing) and [lesion-seg model](https://drive.google.com/file/d/1HKRJ03OccdC_RDwt-TEYPmUxqPm5c7dN/view?usp=sharing), then put them in 'weights' folder.
+## Projector
+You can project the image into latent codes by:
+```
+python projector.py --outdir=out --target=fundus.png --network=weights/network.pkl
+```
 ## Run
+```python
 Run jupyter notebook in script floder
+```
+
 ## Manipulation Results
 [![Image manipulation results](https://res.cloudinary.com/marcomontalbano/image/upload/v1689768098/video_to_markdown/images/youtube--jt8NRZ2PaoE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/jt8NRZ2PaoE "Image manipulation results")
 
