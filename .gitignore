@@ -13,10 +13,8 @@ training-runs/
 out/
 env/
 tmp/
-ThirdPart/
 build/
 pre-trained/
-ThirdPart/
 develop-eggs/
 dist/
 downloads/
